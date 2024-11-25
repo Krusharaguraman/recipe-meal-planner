@@ -1,0 +1,51 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.recipe-list,
+.meal-plan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipe-card,
+.meal-plan-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.recipe-card img,
+.meal-plan-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
